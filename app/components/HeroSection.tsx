@@ -18,7 +18,7 @@ const HeroSection = () => {
         <p className="font-normal text-[1rem] lg:text-[1.25rem] 2xl:text-[1.5rem] px-8 sm:px-0 sm:w-[250px] md:w-[450px]">As a frontend developer, I am constantly on a journey of learning and growth. My motivation drives me to explore new technologies, refine my skills, and push the boundaries of what I can create. 
             <br />
             <br />
-            Beyond coding, I thrive on active pursuits, finding solace and inspiration in the mountains. When I'm not immersed in code, you might find me piecing together intricate LEGO sets, where creativity knows no bounds. With a passion for both innovation and adventure, I bring a dynamic perspective to every project I undertake.</p>
+            Beyond coding, I thrive on active pursuits, finding solace and inspiration in the mountains. When I&apos;m not immersed in code, you might find me piecing together intricate LEGO sets, where creativity knows no bounds. With a passion for both innovation and adventure, I bring a dynamic perspective to every project I undertake.</p>
         </div>
       </div>              
     </section>
