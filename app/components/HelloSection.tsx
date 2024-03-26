@@ -1,9 +1,9 @@
 "use client" 
-import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
+import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 
-const HelloSection = () => {
+export const HelloSection: React.FC = (): JSX.Element => {
   return (
     <section>
       <div className="grid grid-cols-1 h-screen justify-center items-center">
@@ -13,13 +13,13 @@ const HelloSection = () => {
             <br />
             <TypeAnimation
               sequence={[
-                'Jakub Wolniewicz',
+                "Jakub Wolniewicz",
                 1000,
-                'Quality Assurances',
+                "Quality Assurances",
                 1000,
-                'Future',
+                "Future",
                 200,
-                'Frontend Developer',
+                "Frontend Developer",
                 2000
               ]}
               wrapper="span"
@@ -30,7 +30,5 @@ const HelloSection = () => {
          </div> 
       </div>  
     </section>
-  )
+  );
 }
-
-export default HelloSection
