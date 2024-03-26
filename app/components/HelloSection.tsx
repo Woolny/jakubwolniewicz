@@ -3,7 +3,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 
-export const HelloSection: React.FC = (): JSX.Element => {
+const HelloSection: React.FC = (): JSX.Element => {
   return (
     <section>
       <div className="grid grid-cols-1 h-screen justify-center items-center">
@@ -32,3 +32,5 @@ export const HelloSection: React.FC = (): JSX.Element => {
     </section>
   );
 }
+
+export default HelloSection

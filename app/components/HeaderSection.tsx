@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { JSXElementConstructor, useState } from "react";
 import NavLink from "./NavLink";
 import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid";
-import { MenuOverlay } from "./MenuOverlay";
+import MenuOverlay from "./MenuOverlay";
 
 const navLinks =[
   {
@@ -20,7 +20,7 @@ const navLinks =[
   }
 ]
 
-export const HeaderSection: React.FC = (): JSX.Element => {
+const HeaderSection: React.FC = (): JSX.Element => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <nav>
@@ -56,3 +56,5 @@ export const HeaderSection: React.FC = (): JSX.Element => {
     </nav>
   );
 }
+
+export default HeaderSection

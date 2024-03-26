@@ -1,6 +1,6 @@
-import { HeaderSection } from "./components/HeaderSection";
-import { HelloSection } from "./components/HelloSection";
-import { HeroSection } from "./components/HeroSection";
+import HeaderSection from "./components/HeaderSection";
+import HelloSection from "./components/HelloSection";
+import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 
 

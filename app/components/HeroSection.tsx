@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 
-export const HeroSection: React.FC = (): JSX.Element => {
+const HeroSection: React.FC = (): JSX.Element => {
   return (
     <section>
       <div className="flex flex-col lg:flex-row items-center lg:justify-around">
@@ -25,3 +25,5 @@ export const HeroSection: React.FC = (): JSX.Element => {
     </section>
   );
 }
+
+export default HeroSection
